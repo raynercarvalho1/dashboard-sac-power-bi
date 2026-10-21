@@ -8,7 +8,8 @@ principais problemas e desempenho por atendente.
 
 
 
-[Dashboard SAC]
+      ![Dashboard SAC](imagens/dashboard.png)
+   
 
 ## Perguntas que o painel responde
 
