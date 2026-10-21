@@ -1,22 +1,15 @@
-﻿# Dashboard SAC — Análise de Atendimentos de Suporte (Power BI)
+# Dashboard SAC — Análise de Atendimentos de Suporte (Power BI)
 
-Dashboard em Power BI para acompanhar a operação de um SAC (Serviço de Atendimento ao Cliente): volume de chamados, 
-tempo de atendimento, 
-tempo de retorno ao usuário, 
-taxa de cancelamento, 
-principais problemas e desempenho por atendente.
+Dashboard em Power BI para acompanhar a operação de um SAC (Serviço de Atendimento ao Cliente): volume de chamados, tempo de atendimento, tempo de retorno ao usuário, taxa de cancelamento, principais problemas e desempenho por atendente.
 
+> **Projeto de estudo.** Desenvolvido durante um curso de Power BI, com uma base de dados fictícia fornecida pelo curso. O objetivo foi praticar o ciclo completo: tratamento de dados, modelagem, medidas DAX e construção do painel.
 
-
-      ![Dashboard SAC](imagens/dashboard.png)
-   
+![Dashboard SAC](imagens/dashboard.png)
 
 ## Perguntas que o painel responde
 
-- Quantos atendimentos o SAC recebe?
-= Qual é a média de atendimento por dia?
-- Quanto tempo dura, em média, um atendimento? 
-= Quantos dias o usuário espera pela resposta de um atendimento?
+- Quantos atendimentos o SAC recebe, e qual é a média por dia?
+- Quanto tempo dura, em média, um atendimento? E quantos dias o usuário espera pela resposta?
 - Que percentual dos chamados termina cancelado?
 - Quais problemas geram mais chamados?
 - Como o volume se distribui entre os atendentes?
@@ -29,11 +22,8 @@ Arquivo `dados/Base SAC.xlsx`, com 4 abas:
 | Aba | Tipo | Conteúdo |
 |---|---|---|
 | `fOcorrencias` | Fato | 11.999 chamados entre jan/2023 e dez/2025: datas de chamado e resposta, hora inicial e final, usuário, atendente, problema e status |
-
 | `dUsuario` | Dimensão | 450 usuários (sexo, data de nascimento, data de inscrição) |
-
 | `dSuporte` | Dimensão | 44 atendentes |
-
 | `dProblema` | Dimensão | 21 tipos de problema (conexão lenta, emitir certificado, problema com login, reembolso etc.) |
 
 Status possíveis de um chamado: **Encerrado**, **Cancelado** e **Aguardando resposta do usuário**.
@@ -52,7 +42,6 @@ dProblema ──┘
 - `fOcorrencias[ID Suporte]` → `dSuporte[Codigo Suporte]`
 - `fOcorrencias[ID Problema]` → `dProblema[Codigo Problema]`
 
-
 ## Tratamento no Power Query
 
 **fOcorrencias**
@@ -67,7 +56,6 @@ dProblema ──┘
 - Sexo padronizado ("M"/"F" → "Masculino"/"Feminino")
 - Coluna **Idade** calculada a partir da data de nascimento
 - Coluna condicional **Faixa Etária** (Jovem até 29, Adulto de 30 a 39, Senior a partir de 40)
-
 
 ## Medidas DAX
 
@@ -139,4 +127,4 @@ Power BI Desktop · Power Query (M) · DAX · Excel
 
 ## Autor
 
-*Rayner Carvalho* — [LinkedIn](https://www.linkedin.com/in/raynercarvalho/)
+**Rayner** (complete com seu nome completo) — [LinkedIn](COLE-AQUI-O-LINK-DO-SEU-PERFIL)
