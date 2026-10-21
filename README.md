@@ -2,8 +2,6 @@
 
 Dashboard em Power BI para acompanhar a operação de um SAC (Serviço de Atendimento ao Cliente): volume de chamados, tempo de atendimento, tempo de retorno ao usuário, taxa de cancelamento, principais problemas e desempenho por atendente.
 
-> **Projeto de estudo.** Desenvolvido durante um curso de Power BI, com uma base de dados fictícia fornecida pelo curso. O objetivo foi praticar o ciclo completo: tratamento de dados, modelagem, medidas DAX e construção do painel.
-
 ![Dashboard SAC](imagens/dashboard.png)
 
 ## Perguntas que o painel responde
@@ -127,4 +125,4 @@ Power BI Desktop · Power Query (M) · DAX · Excel
 
 ## Autor
 
-**Rayner** (complete com seu nome completo) — [LinkedIn](COLE-AQUI-O-LINK-DO-SEU-PERFIL)
+**Rayner Carvalho** (complete com seu nome completo) — [LinkedIn](https://www.linkedin.com/in/raynercarvalho/)
