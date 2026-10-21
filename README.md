@@ -6,7 +6,8 @@ Dashboard em Power BI para acompanhar a operação de um SAC (Serviço de Atendi
 
 ## Perguntas que o painel responde
 
-- Quantos atendimentos o SAC recebe, e qual é a média por dia?
+- Quantos atendimentos o SAC recebe,
+- Qual é a média por dia?
 - Quanto tempo dura, em média, um atendimento? E quantos dias o usuário espera pela resposta?
 - Que percentual dos chamados termina cancelado?
 - Quais problemas geram mais chamados?
