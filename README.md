@@ -112,7 +112,6 @@ Valores calculados sobre toda a base (2023 a 2025):
 - Criar tabela calendário própria e medidas de inteligência de tempo (variação vs. ano anterior)
 - Analisar o cancelamento por tipo de problema e por atendente
 - Usar o perfil dos usuários (faixa etária, sexo, tempo de inscrição) na análise
-- Publicar o relatório na web com link interativo
 
 ## Ferramentas
 
