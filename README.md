@@ -107,12 +107,6 @@ Valores calculados sobre toda a base (2023 a 2025):
 - **Cancelamento alto:** quase 1 em cada 5 chamados termina cancelado, o que merece investigação (causa do cancelamento, tempo de espera até o cancelamento etc.).
 - **Distribuição entre atendentes:** o volume por atendente varia de 193 a 362 chamados, o que pode indicar desequilíbrio na distribuição da carga.
 
-## Próximos passos (ideias de evolução)
-
-- Criar tabela calendário própria e medidas de inteligência de tempo (variação vs. ano anterior)
-- Analisar o cancelamento por tipo de problema e por atendente
-- Usar o perfil dos usuários (faixa etária, sexo, tempo de inscrição) na análise
-
 ## Ferramentas
 
 Power BI Desktop · Power Query (M) · DAX · Excel
@@ -125,4 +119,4 @@ Power BI Desktop · Power Query (M) · DAX · Excel
 
 ## Autor
 
-**Rayner Carvalho** (complete com seu nome completo) — [LinkedIn](https://www.linkedin.com/in/raynercarvalho/)
+**Rayner Carvalho** — [LinkedIn](https://www.linkedin.com/in/raynercarvalho/)
